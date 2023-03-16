@@ -1,6 +1,6 @@
 # HYDRA
 
-A brief description of your project goes here.
+Simple React project(task) created from figma.
 
 ## Installation
 
