@@ -1,0 +1,41 @@
+.logo__box {
+    padding: 28px 0 28px 117px;
+    background-image: url("../../../assets/images/logo.png");
+    background-repeat: no-repeat;
+    background-size: 102px 103px;
+    background-position: felt center;
+}
+
+.logo__title {
+    line-height: 45px;
+    height: 46px;
+    font-size: 50px;
+    font-weight: 300;
+    color: #C0B7E8;
+    font-family: "BigShouldersDisplay";
+}
+
+@media(max-width: 1022px) {
+.logo__box {
+    width: 100%;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    background-position: 44% center;
+}
+}
+
+@media(max-width: 390px) {
+.logo__box {
+    width: initial;
+    background-size: 69px 60px;
+    padding: 26px 0 5px 80px;
+    background-position: left bottom;
+}
+
+.logo__title {
+    line-height: 28px;
+    height: 28px;
+    font-size: 32px;
+}
+}

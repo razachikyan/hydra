@@ -1,0 +1,69 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-disabled {
+    opacity: 1;
+}
+
+.swiper > .swiper-button-prev, .swiper > .swiper-button-next {
+    background-color: #0E0E0E52;
+    width: 30px ;
+    height: 30px ;
+    border-radius: 50%;
+}
+
+.swiper-button-prev::after, .swiper-button-next::before{
+    transform: rotate(45deg);  
+} 
+.swiper-button-next::after, .swiper-button-prev::before {
+    transform: rotate(-45deg);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after,
+.swiper-button-prev::before,
+.swiper-button-next::before {
+    content: "" !important;
+    position: absolute;
+    width: 2px;
+    border-radius: 1px;
+    height: 10px;
+    background-color: #fff;
+}
+
+.swiper-button-prev::after {
+    top: 7px;
+    right: 15px;
+}
+
+.swiper-button-prev::before {
+    top: 13px;
+    right: 15px;
+}
+
+.swiper-button-next::after {
+    top: 7px;
+    right: 13px;
+}
+
+.swiper-button-next::before {
+    top: 12px;
+    right: 13px;
+}

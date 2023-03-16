@@ -1,0 +1,112 @@
+.technologies {
+    padding-top: 114px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 78px;
+}
+
+.tech__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1190px
+}
+
+.tech__item1 {
+    background-image: url("../../../assets/images/unreal.png");
+    width: 174px;
+    height: 174px;
+}
+
+.tech__item2 {
+    background-image: url("../../../assets/images/unity.png");
+    width: 252px;
+    height: 252px;
+}
+
+.tech__item3 {
+    background-image: url("../../../assets/images/oculus.png");
+    width: 263px;
+    height: 263px;
+}
+
+.tech__item4 {
+    background-image: url("../../../assets/images/vive.png");
+    width: 282px;
+    height: 282px;
+}
+
+.tech__button > .swiper-button-prev::before {
+    top: 29px;
+    right: 31px;
+}
+
+.tech__button > .swiper-button-prev::after {
+    top: 23px;
+    right: 31px;
+}
+
+.tech__button > .swiper-button-next::before {
+    top: 28px;
+    right: 30px;
+}
+
+.tech__button > .swiper-button-next::after {
+    top: 22px;
+    right: 30px;
+}
+
+.tech__button > .swiper-button-prev, .tech__button > .swiper-button-next {
+    position: absolute;
+    width: 62px !important;
+    height: 62px !important;
+}
+
+@media (max-width: 1190px) {
+.tech__list {
+    width: initial;
+    gap: 15px;
+}
+}
+
+@media (max-width: 1022px) {
+.tech__list {
+    max-width: 900px;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}    
+}
+
+@media (max-width: 730px) { 
+.tech__slide {
+    position: relative;
+    background: inherit;
+}
+
+.tech__list {
+    display: none;
+}
+}
+
+@media (max-width: 390px) {
+.technologies {
+    padding-top: 56px;
+    margin-bottom: 0;
+}
+
+.technologies > .swiper-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.tech__button > .swiper-button-prev{
+    left: 0;
+}
+
+
+.tech__button > .swiper-button-next {
+    right: 0;
+}
+}

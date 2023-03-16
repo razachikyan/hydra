@@ -1,0 +1,5 @@
+@media (max-width: 660px) {
+.intro__descr {
+    display: none;
+} 
+}

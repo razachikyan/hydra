@@ -1,0 +1,161 @@
+.layout {
+  background-color: #302C42;
+}
+
+.container {
+  max-width: 1302px;
+  padding: 0px 15px;
+  font-display: auto;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.section__subtitle {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.section__descr {
+    max-width: 652px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+} 
+
+.layout {
+  background-image: url("./assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 69%;
+}
+
+.swiper {
+  display: none !important;
+}
+@media (max-width: 1190px) {
+.section__title {
+  font-size: 32px;
+}
+
+.section__subtitle {
+  font-size: 30px;
+}
+
+.section__descr {
+  max-width: 550px;
+}
+}
+
+@media (max-width: 1022px) {
+.section__title {
+  font-size: 28px;
+}
+
+.section__subtitle {
+  font-size: 26px;
+}
+
+.section__descr {
+  max-width: 450px;
+}
+
+.layout {
+  background-position: 80% 0
+}
+}
+
+@media (max-width: 880px) {
+.section__title {
+  font-size: 25px;
+}
+
+.section__subtitle {
+  font-size: 22px;
+}
+
+.section__descr {
+  max-width: 350px;
+}
+
+.layout {
+    background-position: 80% -48px;
+}
+}
+
+@media (max-width: 730px) {
+.swiper {
+  display: flex !important; 
+}
+}
+
+@media (max-width: 660px) {
+.arrow {
+  display: none;
+}
+
+.section__title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.section__subtitle {
+  font-size: 26px;
+  text-align: center;
+}
+
+.block__text {
+  display: block;
+}
+
+.section__descr {
+  text-align: center;
+}
+}
+
+@media (max-width: 390px) {
+.layout {
+  background: #302C42;
+}
+
+.container {
+  padding: 0 20px;
+  background-image: url("./assets/images/general1.png"), 
+                    url("./assets/images/general2.png"),
+                    url("./assets/images/general3.png"),
+                    url("./assets/images/footer1.png"), 
+                    url("./assets/images/footer2.png");
+  background-repeat: no-repeat;
+  background-position: 111% 2%, 42% 0%, 50% 6%, 51% 91.7%, 51% 89.7%;
+  background-repeat: no-repeat;
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.section__subtitle {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.section__descr {
+  text-align: left;
+}
+}

@@ -1,0 +1,42 @@
+.intro__about {
+    margin-top: 151px;
+}
+
+.about__title {
+    margin-bottom: 5px;
+}
+
+.about__subtitle {
+    margin-bottom: 42px;
+}
+
+.about__descr {
+    margin-bottom: 28px;
+}
+
+.about__btn {
+    color: #343045;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+
+@media (max-width: 660px) {
+.intro__about {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center
+}
+
+.about__title, .about__subtitle {
+    display: none;
+} 
+
+.about__descr {
+    margin-bottom: 34px;
+}
+
+.about__btn {
+    width: 276px;
+}
+}

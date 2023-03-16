@@ -1,0 +1,47 @@
+.burger {
+    position: relative;
+    display: none;
+    background-image: url("../../assets/images/burger.png");
+    background-repeat: no-repeat;
+    background-size: 33px;
+    width: 33px;
+    height: 26px;
+}
+
+
+.burger__list {
+    position: absolute;
+    display: flex;
+    min-width: 220px;
+    border-radius: 20px;
+    flex-direction: column;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+}
+
+.burger__item {
+    padding: 35px 30px 35px 30px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all .1s;
+}
+
+.burger__item:first-child {
+    border-radius: 20px 20px 0 0;
+}
+
+.burger__item:last-child {
+    border-radius: 0 0 20px 20px;
+}
+
+.burger__item:active {
+    background-color: #C0B7E8;
+}
+
+@media (max-width: 390px) {
+.burger {
+    display: block;
+}
+}

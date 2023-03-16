@@ -1,0 +1,54 @@
+.belief__top {
+    margin-top: 111px;
+    display: flex;
+    gap: 117px;
+    margin-bottom: 107px;
+}
+
+.belief__descr {
+    max-width: 652px;
+}
+
+.gelief__title {
+    margin-bottom: 15px;
+}
+
+.belief__text {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+@media (max-width: 1190px) {
+.belief__top {
+    gap: 80px;
+}
+
+.belief__descr {
+    max-width: 550px;
+}
+}
+
+@media (max-width: 1022px) {
+.belief__descr {
+    max-width: 400px;
+}
+}
+
+@media (max-width: 660px) {
+.belief__descr {
+    display: none;
+}    
+
+.belief__top {
+    gap: initial;
+    justify-content: center;
+    margin: 66px 0;
+}
+}
+
+@media (max-width: 390px) {
+.belief__top {
+    margin: 60px 0 28px 0;
+}
+}

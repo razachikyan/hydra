@@ -1,0 +1,19 @@
+.general {
+    padding-top: 48px;
+}
+
+.gen__btn .swiper-button-next, .swiper-button-prev  {
+    padding: 3.5px;
+    background-color: inherit;
+}
+
+@media(max-width: 390px) {
+.general {
+    padding-top: 43px;
+    padding-bottom: 40px;
+}
+
+.general__slide {
+    padding: 23px 0px 20px 0px;
+}
+}

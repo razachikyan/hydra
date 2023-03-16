@@ -1,0 +1,125 @@
+.belief__list {
+    display: flex;
+    gap: 11px;
+}
+
+.belief__item {
+    padding: 23px 35px 40px 25px;
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.belief1 {
+    background-image: url("../../../assets/images/belief1.png");
+}
+
+.belief2 {
+    background-image: url("../../../assets/images/belief2.png");
+}
+
+.belief3 {
+    background-image: url("../../../assets/images/belief3.png");
+}
+
+.belief4 {
+    background-image: url("../../../assets/images/belief4.png");
+}
+
+
+.belief__button > .swiper-button-prev::before {
+    top: 29px;
+    right: 31px;
+}
+
+.belief__button > .swiper-button-prev::after {
+    top: 23px;
+    right: 31px;
+}
+
+.belief__button > .swiper-button-next::before {
+    top: 28px;
+    right: 30px;
+}
+
+.belief__button > .swiper-button-next::after {
+    top: 22px;
+    right: 30px;
+}
+
+.belief__button > .swiper-button-prev, .belief__button > .swiper-button-next {
+    position: absolute;
+    width: 62px !important;
+    height: 62px !important;
+}
+
+.belief__button > .swiper-button-prev {
+    left: 5%;
+}
+
+.belief__button > .swiper-button-next {
+    right: 5%;
+}
+
+@media (max-width: 1190px) {
+.belief__item {
+    padding: 23px 10px 40px 10px;
+}
+.belief__list {
+    gap: initial;
+    justify-content: space-between;
+}
+}
+
+@media (max-width: 1022px) {
+.belief__list{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.belief__item {
+    padding: 23px 60px 40px 60px;
+}
+}
+
+@media (max-width: 880px) {
+.belief__item {
+    padding: 23px 30px 40px 30px;
+}       
+}
+
+@media (max-width: 730px) {
+.belief__slide {
+    position: relative;
+    background: inherit;
+}
+
+.belief__list {
+    display: none;
+}
+
+.belief__item {
+    width: 75%;
+}
+}
+
+
+@media (max-width: 390px) {
+.belief__item {
+    width: initial;
+    max-width: 320px;
+    padding: 27px 37px 36px 33px;
+}
+
+
+.belief__button > .swiper-button-prev {
+    left: 0;
+}
+
+.belief__button > .swiper-button-next {
+    right: 0;
+}
+}

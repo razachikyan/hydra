@@ -1,0 +1,26 @@
+.header__controls {
+    display: flex;
+    gap: 38px;
+}
+
+.contact__btn {
+    border: 2px solid #FFFFFF;
+    color: #fff;
+}
+
+.join__btn {
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    color: #343045;
+}
+
+@media(max-width: 1190px) {
+.header__controls {
+    gap: 20px;
+}
+}
+
+@media (max-width: 390px) {
+.header__controls {
+    display: none;
+}
+}

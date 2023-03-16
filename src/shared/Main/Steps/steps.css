@@ -1,0 +1,106 @@
+.steps {
+    margin-bottom: 112px;
+}
+
+.steps__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 124px;
+}
+
+.steps__list {
+    display: flex;
+    gap: 115px;
+    justify-content: center;
+}
+
+.step {
+    max-width: 255px;
+}
+
+.steps__button > .swiper-button-prev::before {
+    top: 29px;
+    right: 31px;
+}
+
+.steps__button > .swiper-button-prev::after {
+    top: 23px;
+    right: 31px;
+}
+
+.steps__button > .swiper-button-next::before {
+    top: 28px;
+    right: 30px;
+}
+
+.steps__button > .swiper-button-next::after {
+    top: 22px;
+    right: 30px;
+}
+
+.steps__button > .swiper-button-prev, .steps__button > .swiper-button-next {
+    position: absolute;
+    width: 62px !important;
+    height: 62px !important;
+}
+
+@media (max-width: 1190px) {
+.steps__list {
+    gap: initial;
+    justify-content: space-between;
+}
+}
+
+@media (max-width: 1022px) {
+.steps__list {
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 85px;
+    justify-content: center;
+    max-width: 900px;
+}
+}
+
+
+@media (max-width: 730px) { 
+.steps__slide {
+    position: relative;
+    background: inherit;
+}
+
+.steps__list {
+    display: none;
+}
+}
+
+@media (max-width: 660px) {
+.steps__top {
+    justify-content: center;
+}
+
+.steps__top > .section__descr {
+    display: none;
+}
+
+.step {
+    max-width: 166px;
+}
+}
+
+@media (max-width: 390px) {
+.step {
+    max-width: initial;
+}
+
+.steps__top {
+    margin-bottom: 37px;
+}
+
+.steps__slide > .swiper-button-prev {
+    left: 0;
+}
+
+.steps__slide > .swiper-button-next {
+    right: 0;
+}
+}

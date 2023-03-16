@@ -1,0 +1,89 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.input, .textarea {
+    padding: 27px 42px;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    background-color: inherit;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    min-width: 49.4%;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.input::placeholder, .input, .textarea::placeholder, .textarea {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.input:nth-child(2n) {
+    margin-right: 0;
+}
+
+.input:nth-child(5), .textarea {
+    min-width: 100%;
+    margin-right: 0;
+}
+
+.textarea {
+    height: 210px;
+    border-radius: 40px;
+    margin-bottom: 51px;
+}
+
+.submit__btn {
+    color: #343045;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+
+@media(max-width: 1190px) {
+.input:not(:nth-child(5)) {
+    min-width: 48%;
+}
+}
+
+@media (max-width: 880px) {
+.input {
+    width: 100%;
+}
+}
+
+@media (max-width: 660px) {
+.input {
+    padding: 18px 25px;
+    margin-right: 0;
+}
+
+.input, .textarea {
+    margin-bottom: 20px;
+}
+}
+
+
+@media (max-width: 390px) {
+.input {
+    padding: 18px 29px;
+    margin-bottom: 22px;
+}
+
+.textarea {
+    min-height: 219px;
+}
+
+.submit__btn {
+    width: 98%;
+    max-width: 250px;
+    font-size: 14px;
+}
+
+.textarea {
+    margin-bottom: 52px;
+}
+}

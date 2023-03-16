@@ -1,0 +1,33 @@
+.general__controls {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.general__btn {
+    color: #343045;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+
+@media (max-width: 660px) {
+.general__button {
+    display: none;
+}
+
+.general__controls {
+    justify-content: center;
+    gap: initial;
+}
+}
+
+@media (max-width: 390px) {
+.general__controls {
+    width: 100%;
+    padding: 0 25px;
+}
+
+.general__btn {
+    width: 100%;
+    padding: 17px;
+}
+}

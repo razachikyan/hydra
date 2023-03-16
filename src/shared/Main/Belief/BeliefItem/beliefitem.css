@@ -1,0 +1,112 @@
+.belief__image {
+    background-color: rgba(14, 14, 14, 0.32);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 219px;
+    height: 219px;
+    padding: 14px;
+    margin-bottom: 21px;
+}
+
+.beliefitem__descr {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    max-width: 250px;
+    margin-bottom: 35px;
+}
+
+.beliefitem__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-bottom: 17.5px;
+    margin-bottom: 21px;
+    border-bottom: 1px solid rgba(192, 183, 232, 0.33);
+}
+
+.belief__btn {
+    color: #343045;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+
+@media (max-width: 1190px) {
+.beliefitem__descr {
+    max-width: 200px;
+}
+
+.beliefitem__title {
+    font-size: 22px;
+}
+}
+
+@media (max-width: 730px) {
+.belief__image {
+    background-size: 275px;
+    background-color: rgba(14, 14, 14, 0.32);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    padding: 14px;
+    margin-bottom: 21px;
+}
+
+.beliefitem__title {
+    font-size: 33px;
+}
+
+.beliefitem__descr {
+    max-width: initial;
+    font-size: 19px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.belief__btn {
+    font-size: 17px;
+    line-height: 17px;
+    padding: 18px 50px;
+}
+}
+
+@media (max-width: 660px) {
+.beliefitem__title {
+    font-size: 22px;
+}
+
+.beliefitem__descr, .belief__btn {
+    font-size: 12px;
+}
+
+.belief__image {
+    background-size: 250px;
+    width: 260px;
+    height: 260px;
+}
+}
+
+@media (max-width: 390px) {
+.belief__image {
+    max-width: 190px;
+    max-height: 190px;
+    background-size: 190px;
+}
+
+.beliefitem__title {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.beliefitem__descr {
+    text-align: left;
+}
+
+.belief__btn { 
+    width: 57.7%;
+}
+}

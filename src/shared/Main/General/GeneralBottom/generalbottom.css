@@ -1,0 +1,73 @@
+.general__list {
+    display: flex;
+    background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+    border-radius: 90px;
+    padding: 24px 80px 22px 39px;
+}
+
+.general__slide {
+    background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+    border-radius: 90px;
+    padding: 24px 80px 22px 39px;
+}
+
+
+.gen__btn > .swiper-button-prev, .gen__btn > .swiper-button-next {
+    border: 2px solid #fff;
+    background-color: inherit;
+    top: 55%;
+    position: absolute;
+
+}
+
+
+.gen__btn .swiper-button-prev {
+    left: 3%;
+}
+
+.gen__btn .swiper-button-next {
+    right: 3%;
+}
+
+.gen__btn > .swiper-button-prev::before {
+    top: 11px;
+    right: 13px;
+}
+
+.gen__btn > .swiper-button-prev::after {
+    top: 5px;
+    right: 13px;
+}
+
+.gen__btn > .swiper-button-next::after {
+    top: 5px;
+    right: 11px;
+}
+
+.gen__btn > .swiper-button-next::before {
+    top: 11px;
+    right: 11px;
+}
+
+
+@media (max-width: 1190px) {
+
+.general__list {
+    padding: 24px 20px 22px 20px;
+}
+
+}
+
+@media (max-width: 730px) {
+.general__list {
+  display: none;
+}
+}
+
+@media (max-width: 660px) {
+.general__slide {
+    padding: 24px 0px 22px 0px;
+}
+}

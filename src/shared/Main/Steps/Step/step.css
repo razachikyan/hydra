@@ -1,0 +1,89 @@
+.step__circle {
+    width: 198px;
+    height: 198px;
+    border-radius: 50%;
+    background-color: #0D0D0D52;
+    padding: 19px;
+    margin-bottom: 25px;
+}
+
+.step__number {
+    width: 159px;
+    background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 89.33%);
+    height: 159px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #343045;
+}
+
+.step__info {
+    display: flex;
+    gap: 15.5px;
+}
+
+.step__descr {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+@media(max-width: 1190px) {
+.step__descr {
+    font-size: 18px;
+}
+}
+
+@media (max-width: 730px) {
+.step__circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+}
+
+@media (max-width: 660px) {
+.step__descr {
+    font-size: 17px;
+}
+
+.step__circle {
+    width: 140px;
+    height: 140px;
+}
+
+.step__number {
+    height: 140px;
+}
+}
+
+@media (max-width: 390px) {
+.step__descr {
+    max-width: 187px;
+}
+
+.step__arrow {
+    display: none;
+}
+
+.step__circle {
+    width: initial;
+    width: 159px;
+    height: 159px;
+}
+
+.step__number {
+    width: 159px;
+    height: 159px;
+}
+
+.step__descr {
+    font-size: 24px;
+    line-height: 29px;
+}
+}
